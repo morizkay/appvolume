@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3101 /* AppVolumeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101 /* AppVolumeApp.swift */; };
+		3102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2102 /* AppDelegate.swift */; };
+		3103 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2103 /* MenuBarController.swift */; };
+		3104 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104 /* AppState.swift */; };
+		3110 /* AudioApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2201 /* AudioApplication.swift */; };
+		3111 /* AudioDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2202 /* AudioDevice.swift */; };
+		3112 /* AudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2203 /* AudioSession.swift */; };
+		3113 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2204 /* AppSettings.swift */; };
+		3120 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301 /* AudioService.swift */; };
+		3121 /* CoreAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2302 /* CoreAudioService.swift */; };
+		3122 /* AudioApplicationScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2303 /* AudioApplicationScanner.swift */; };
+		3123 /* AudioRoutingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2304 /* AudioRoutingService.swift */; };
+		3124 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2305 /* PersistenceService.swift */; };
+		3125 /* PermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306 /* PermissionService.swift */; };
+		3126 /* SystemVolumeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2307 /* SystemVolumeService.swift */; };
+		3127 /* LaunchAtLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2308 /* LaunchAtLoginService.swift */; };
+		3128 /* MockAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2309 /* MockAudioService.swift */; };
+		3130 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2401 /* MainViewModel.swift */; };
+		3131 /* AudioApplicationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2402 /* AudioApplicationViewModel.swift */; };
+		3132 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403 /* SettingsViewModel.swift */; };
+		3140 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501 /* MainView.swift */; };
+		3141 /* AudioApplicationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2502 /* AudioApplicationRow.swift */; };
+		3142 /* AudioApplicationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2503 /* AudioApplicationListView.swift */; };
+		3143 /* SystemVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504 /* SystemVolumeView.swift */; };
+		3144 /* OutputDevicePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2505 /* OutputDevicePicker.swift */; };
+		3145 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2506 /* SettingsView.swift */; };
+		3146 /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2507 /* DiagnosticsView.swift */; };
+		3147 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2508 /* EmptyStateView.swift */; };
+		3201 /* AudioApplicationScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2701 /* AudioApplicationScannerTests.swift */; };
+		3202 /* PersistenceServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2702 /* PersistenceServiceTests.swift */; };
+		3203 /* MainViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703 /* MainViewModelTests.swift */; };
+		3301 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4001 /* AppKit.framework */; };
+		3302 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4002 /* SwiftUI.framework */; };
+		3303 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4003 /* CoreAudio.framework */; };
+		3304 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4004 /* ServiceManagement.framework */; };
+		3305 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4005 /* AVFoundation.framework */; };
+		3306 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4006 /* ApplicationServices.framework */; };
+		3307 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4007 /* XCTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2101 /* AppVolumeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVolumeApp.swift; sourceTree = "<group>"; };
+		2102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2103 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		2104 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		2201 /* AudioApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioApplication.swift; sourceTree = "<group>"; };
+		2202 /* AudioDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDevice.swift; sourceTree = "<group>"; };
+		2203 /* AudioSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSession.swift; sourceTree = "<group>"; };
+		2204 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		2301 /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		2302 /* CoreAudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioService.swift; sourceTree = "<group>"; };
+		2303 /* AudioApplicationScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioApplicationScanner.swift; sourceTree = "<group>"; };
+		2304 /* AudioRoutingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRoutingService.swift; sourceTree = "<group>"; };
+		2305 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		2306 /* PermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionService.swift; sourceTree = "<group>"; };
+		2307 /* SystemVolumeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemVolumeService.swift; sourceTree = "<group>"; };
+		2308 /* LaunchAtLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginService.swift; sourceTree = "<group>"; };
+		2309 /* MockAudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAudioService.swift; sourceTree = "<group>"; };
+		2401 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		2402 /* AudioApplicationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioApplicationViewModel.swift; sourceTree = "<group>"; };
+		2403 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		2501 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2502 /* AudioApplicationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioApplicationRow.swift; sourceTree = "<group>"; };
+		2503 /* AudioApplicationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioApplicationListView.swift; sourceTree = "<group>"; };
+		2504 /* SystemVolumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemVolumeView.swift; sourceTree = "<group>"; };
+		2505 /* OutputDevicePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputDevicePicker.swift; sourceTree = "<group>"; };
+		2506 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2507 /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+		2508 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		2701 /* AudioApplicationScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioApplicationScannerTests.swift; sourceTree = "<group>"; };
+		2702 /* PersistenceServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceServiceTests.swift; sourceTree = "<group>"; };
+		2703 /* MainViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTests.swift; sourceTree = "<group>"; };
+		4001 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4002 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4003 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		4004 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		4005 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4006 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		4007 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4101 /* AppVolume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppVolume.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4102 /* AppVolumeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppVolumeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5001 /* AppVolume Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3301 /* AppKit.framework in Frameworks */,
+				3302 /* SwiftUI.framework in Frameworks */,
+				3303 /* CoreAudio.framework in Frameworks */,
+				3304 /* ServiceManagement.framework in Frameworks */,
+				3305 /* AVFoundation.framework in Frameworks */,
+				3306 /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5002 /* AppVolumeTests Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3307 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6001 = {
+			isa = PBXGroup;
+			children = (
+				6002 /* App */, 6003 /* Models */, 6004 /* Services */, 6005 /* ViewModels */, 6006 /* Views */, 6007 /* Tests */, 6009 /* Products */, 6008 /* Frameworks */,
+			);
+			name = AppVolume;
+			sourceTree = "<group>";
+		};
+		6002 = {isa = PBXGroup; children = (2101, 2102, 2103, 2104); name = App; path = App; sourceTree = "<group>"; };
+		6003 = {isa = PBXGroup; children = (2201, 2202, 2203, 2204); name = Models; path = Models; sourceTree = "<group>"; };
+		6004 = {isa = PBXGroup; children = (2301, 2302, 2303, 2304, 2305, 2306, 2307, 2308, 2309); name = Services; path = Services; sourceTree = "<group>"; };
+		6005 = {isa = PBXGroup; children = (2401, 2402, 2403); name = ViewModels; path = ViewModels; sourceTree = "<group>"; };
+		6006 = {isa = PBXGroup; children = (2501, 2502, 2503, 2504, 2505, 2506, 2507, 2508); name = Views; path = Views; sourceTree = "<group>"; };
+		6007 = {isa = PBXGroup; children = (2701, 2702, 2703); name = Tests; path = Tests; sourceTree = "<group>"; };
+		6008 = {isa = PBXGroup; children = (4001, 4002, 4003, 4004, 4005, 4006, 4007); name = Frameworks; sourceTree = "<group>"; };
+		6009 = {isa = PBXGroup; children = (4101, 4102); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7001 /* AppVolume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8001 /* Build configuration list for PBXNativeTarget "AppVolume" */;
+			buildPhases = (5001, 5003, 5004);
+			buildRules = ();
+			dependencies = ();
+			name = AppVolume;
+			productName = AppVolume;
+			productReference = 4101;
+			productType = "com.apple.product-type.application";
+		};
+		7002 /* AppVolumeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8002 /* Build configuration list for PBXNativeTarget "AppVolumeTests" */;
+			buildPhases = (5010, 5002, 5011);
+			buildRules = ();
+			dependencies = (7003);
+			name = AppVolumeTests;
+			productName = AppVolumeTests;
+			productReference = 4102;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					7001 = { CreatedOnToolsVersion = 16.0; };
+					7002 = { CreatedOnToolsVersion = 16.0; TestTargetID = 7001; };
+				};
+			};
+			buildConfigurationList = 8003 /* Build configuration list for PBXProject "AppVolume" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 6001;
+			productRefGroup = 6009;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (7001, 7002);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5003 /* AppVolume Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		5011 /* AppVolumeTests Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5004 /* AppVolume Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3101, 3102, 3103, 3104,
+				3110, 3111, 3112, 3113,
+				3120, 3121, 3122, 3123, 3124, 3125, 3126, 3127, 3128,
+				3130, 3131, 3132,
+				3140, 3141, 3142, 3143, 3144, 3145, 3146, 3147,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5010 /* AppVolumeTests Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (3201, 3202, 3203);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXContainerItemProxy section */
+		7101 = {isa = PBXContainerItemProxy; containerPortal = 9001; proxyType = 1; remoteGlobalIDString = 7001; remoteInfo = AppVolume; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		7003 = {isa = PBXTargetDependency; target = 7001; targetProxy = 7101; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8101 /* Project Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SWIFT_VERSION = 5.10;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+			};
+			name = Debug;
+		};
+		8102 /* Project Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SWIFT_VERSION = 5.10;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+			};
+			name = Release;
+		};
+		8201 /* AppVolume Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AppVolume;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 morizkay";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morizkay.AppVolume;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+		8202 /* AppVolume Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AppVolume;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 morizkay";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morizkay.AppVolume;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+		8203 /* Tests Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morizkay.AppVolumeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.10;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppVolume.app/Contents/MacOS/AppVolume";
+			};
+			name = Debug;
+		};
+		8204 /* Tests Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morizkay.AppVolumeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.10;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppVolume.app/Contents/MacOS/AppVolume";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8001 = {isa = XCConfigurationList; buildConfigurations = (8201, 8202); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		8002 = {isa = XCConfigurationList; buildConfigurations = (8203, 8204); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		8003 = {isa = XCConfigurationList; buildConfigurations = (8101, 8102); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 9001 /* Project object */;
+}
